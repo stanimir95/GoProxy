@@ -48,10 +48,11 @@ func main() {
 	fmt.Println("	fmt.Println(getServers())")
 	fmt.Println(getServers())
 
-	fmt.Println("	fmt.Println(checkServerStatus(FixedHTTPPrefix))	")
-	fmt.Println(checkServerStatus(FixedHTTPPrefix))
-
 	fmt.Println("	fmt.Println(FixedHTTPPrefix)")
 	fmt.Println(FixedHTTPPrefix)
 
+	fmt.Println("	VAJNOOOO")
+	for {
+		fmt.Println(checkServerStatus(FixedHTTPPrefix))
+	}
 }
